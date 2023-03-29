@@ -125,7 +125,7 @@ const Sidebar = ({ drawerWidth, isSidebarOpen, setIsSidebarOpen, isNonMobile }) 
                      <FlexBetween color={theme.palette.secondary.main}>
                         <Box display="flex" alignItems="center" gap="0.5rem">
                            <Typography variant="h4" fontWeight="bold">
-                              ECOMVISION
+                              Management Restaurants
                            </Typography>
                         </Box>
                         {!isNonMobile && (
