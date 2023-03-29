@@ -24,7 +24,7 @@ import { useDispatch } from 'react-redux';
 import { setMode } from 'states';
 import profileImage from 'assets/avatar.jpg';
 
-const Navbar = ({setIsSidebarOpen, isSidebarOpen}) => {
+const Navbar = ({ setIsSidebarOpen, isSidebarOpen }) => {
    const dispatch = useDispatch();
    const theme = useTheme();
    const [anchorEl, setAnchorEl] = useState(null);
